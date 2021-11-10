@@ -17,11 +17,11 @@ const AgencySelectionSection = () => {
 				<AgencySelectionContainer>
 					<Video />
 					<AllCardsContainer>
-						<Card src={"/img/butiful.png"} title={"Brief"} text={"Complete brief writing or simple guidance on what to include, we've got you covered."} width="440px"></Card>
+						<Card src={"/img/testimg.png"} title={"Brief"} text={"Complete brief writing or simple guidance on what to include, we've got you covered."} width="440px"></Card>
 
-						<Card src={"/img/butiful.png"} title={"Search"} text={"In-depth agency search covering; criteria matching, door knocking and due-dilligence vertting."} width="460px"></Card>
+						<Card src={"/img/testimg.png"} title={"Search"} text={"In-depth agency search covering; criteria matching, door knocking and due-dilligence vertting."} width="460px"></Card>
 
-						<Card src={"/img/butiful.png"} title={"Pitch"} text={"Comprehensive pitch management, including comms, diary management and pitch hosting."} width="480px"></Card>
+						<Card src={"/img/testimg.png"} title={"Pitch"} text={"Comprehensive pitch management, including comms, diary management and pitch hosting."} width="480px"></Card>
 					</AllCardsContainer>
 				</AgencySelectionContainer>
 			</FullWidthContainer>
