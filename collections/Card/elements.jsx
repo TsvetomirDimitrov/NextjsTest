@@ -1,6 +1,7 @@
 // Styled elements for the Card go here
 
 import styled from "styled-components";
+import { css } from "styled-components";
 import { SectionParagraph, SectionSubheading } from "../../components/Typography";
 
 
@@ -33,6 +34,10 @@ export const CardImageContainer = styled(({ ...props }) => <div {...props} />)`
 `;
 
 export const CardContainer = styled(({ ...props }) => <div {...props} />)`
+  ${props => props.color && css`
+    background-color: ${props.color};
+    width: ${props.width};
+  `};
   flex-basis: 30%;
   display: flex;
   height: 140px;

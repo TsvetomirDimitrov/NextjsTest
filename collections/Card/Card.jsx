@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const Card = (props) => {
 	return (
-		<CardContainer style={{ width: `${props.width}`, backgroundColor: `${props.backgroundColor}` }}>
+		<CardContainer {...props}>
 			<CardImageContainer><Image
 				src={props.src}
 				width={60}
