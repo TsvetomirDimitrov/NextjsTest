@@ -38,7 +38,6 @@ export const CardContainer = styled(({ ...props }) => <div {...props} />)`
   height: 140px;
   justify-content: center;
   column-gap: 10%;
-  background-color: #F4F4F4;
   border-radius: 10px;
   padding: 0 25px;
 
