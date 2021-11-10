@@ -9,12 +9,15 @@ const AgencySelectionSection = () => {
 		<>
 			<SectionHeadings>
 				<SectionBigHeading>Managed agency selection</SectionBigHeading>
+
 				<SectionSubheading>Strengthen your onboarding process</SectionSubheading>
 			</SectionHeadings>
+
 			<FullWidthContainer>
 
 				<AgencySelectionContainer>
 					<Video />
+
 					<AllCardsContainer>
 						<Card src={"/img/briefimg.png"} title={"Brief"} text={"Complete brief writing or simple guidance on what to include, we've got you covered."} width="440px" color="#F9F9F9"></Card>
 

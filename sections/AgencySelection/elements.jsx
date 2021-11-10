@@ -27,7 +27,6 @@ export const FullWidthContainer = styled.div`
 `
 
 export const SectionHeadings = styled.div`
-	display: flex;
-	flex-direction: column;
 	text-align: center;
 `
+
