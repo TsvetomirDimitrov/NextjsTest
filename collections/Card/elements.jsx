@@ -18,13 +18,9 @@ export const CardTitleAndTextContainer = styled.div`
 export const CardTitleContainer = styled((props) => <SectionSubheading {...props} />)`
   margin: 0;
   font-weight: 600;
-  color: black;
-  
 `;
 
 export const CardTextContainer = styled(({ ...props }) => <SectionParagraph {...props} />)`
-  color: black;
-  font-family: sans-serif;
   margin: 0;
   text-align: left;
 `;
@@ -46,7 +42,7 @@ export const CardContainer = styled(({ ...props }) => <div {...props} />)`
   border-radius: 10px;
   padding: 0 25px;
 
-  :hover {
+  &:hover {
     border: 2px solid #3D8FFA;
     transition: border .1s ease;
     h3 {

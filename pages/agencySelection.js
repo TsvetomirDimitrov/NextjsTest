@@ -1,7 +1,3 @@
-
-import { Card } from "../collections/Card";
-import { Video } from "../components";
-import { VideoContainer } from "../components/Video/elements";
 import Head from 'next/head';
 import AgencySelectionSection from "../sections/AgencySelection/AgencySelection";
 

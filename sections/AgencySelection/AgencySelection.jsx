@@ -7,7 +7,6 @@ import { AgencySelectionContainer, FullWidthContainer, SectionHeadings } from '.
 const AgencySelectionSection = () => {
 	return (
 		<>
-			{/* h1 */}
 			<SectionHeadings>
 				<SectionBigHeading>Managed agency selection</SectionBigHeading>
 				<SectionSubheading>Strengthen your onboarding process</SectionSubheading>
