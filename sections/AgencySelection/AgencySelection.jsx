@@ -1,15 +1,14 @@
 import React from 'react'
 import { Card } from '../../collections/Card'
 import { AllCardsContainer } from '../../collections/Card/elements'
-import { SectionBigHeading, SectionSubheading, Video } from '../../components'
-import { AgencySelectionContainer, FullWidthContainer, SectionHeadings } from './elements'
+import { SectionBigHeading, SectionHeading, SectionInnerHeading, SectionParagraph, SectionSubheading, SectionTinyHeading, Video } from '../../components'
+import { AgencySectionSubheading, AgencySelectionContainer, FullWidthContainer, SectionHeadings } from './elements'
 
-const AgencySelectionSection = () => {
+const AgencySelectionSection = (props) => {
 	return (
 		<>
 			<SectionHeadings>
 				<SectionBigHeading>Managed agency selection</SectionBigHeading>
-
 				<SectionSubheading>Strengthen your onboarding process</SectionSubheading>
 			</SectionHeadings>
 
@@ -26,7 +25,7 @@ const AgencySelectionSection = () => {
 						<Card src={"/img/pitchimg.png"} title={"Pitch"} text={"Comprehensive pitch management, including comms, diary management and pitch hosting."} width="480px" color='#F1F1F1'></Card>
 					</AllCardsContainer>
 				</AgencySelectionContainer>
-			</FullWidthContainer>
+			</FullWidthContainer >
 		</>
 	)
 }

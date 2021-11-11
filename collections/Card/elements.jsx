@@ -24,6 +24,7 @@ export const CardTitleContainer = styled((props) => <SectionSubheading {...props
 export const CardTextContainer = styled(({ ...props }) => <SectionParagraph {...props} />)`
   margin: 0;
   text-align: left;
+  font-weight: 500;
 `;
 
 export const CardImageContainer = styled(({ ...props }) => <div {...props} />)`
