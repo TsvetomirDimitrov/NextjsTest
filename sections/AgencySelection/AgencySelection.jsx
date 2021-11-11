@@ -1,14 +1,14 @@
 import React from 'react'
 import { Card } from '../../collections/Card'
 import { AllCardsContainer } from '../../collections/Card/elements'
-import { SectionBigHeading, SectionHeading, SectionInnerHeading, SectionParagraph, SectionSubheading, SectionTinyHeading, Video } from '../../components'
-import { AgencySectionSubheading, AgencySelectionContainer, FullWidthContainer, SectionHeadings } from './elements'
+import { SectionHeading, SectionSubheading, Video } from '../../components'
+import { AgencySelectionContainer, FullWidthContainer, SectionHeadings } from './elements'
 
-const AgencySelectionSection = (props) => {
+const AgencySelectionSection = () => {
 	return (
 		<>
 			<SectionHeadings>
-				<SectionBigHeading>Managed agency selection</SectionBigHeading>
+				<SectionHeading>Managed agency selection</SectionHeading>
 				<SectionSubheading>Strengthen your onboarding process</SectionSubheading>
 			</SectionHeadings>
 

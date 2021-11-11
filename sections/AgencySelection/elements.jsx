@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { SectionSubheading } from "../../components";
 
 export const AllCardsContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
