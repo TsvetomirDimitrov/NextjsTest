@@ -11,7 +11,7 @@ export const CardTitleAndTextContainer = styled.div`
   color: black;
   display: flex;
   flex-direction: column;
-  flex-basis: 75%;
+  flex-basis: 59.5%;
   justify-content: center;
 
 `;
@@ -42,8 +42,8 @@ export const CardContainer = styled(({ ...props }) => <div {...props} />)`
   flex-basis: 30%;
   display: flex;
   height: 140px;
-  justify-content: center;
-  column-gap: 10%;
+  justify-content: space-evenly;
+  column-gap: 10px;
   border-radius: 10px;
   padding: 0 25px;
 

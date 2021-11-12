@@ -42,9 +42,6 @@ export const StyledSectionParagraph = styled((props) => <p {...props} />)`
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
+  margin: 0;
 `;
 
-export const Bold = styled((props) => <p {...props} />)`
-	font-size: 55px;
-  color: black;
-`
