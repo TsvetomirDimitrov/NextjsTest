@@ -1,4 +1,4 @@
-import { Hero } from "../sections";
+import { Hero, AgencySelectionSection } from "../sections";
 
 const heroProps = {
   image: { src: "/img/heroimg.png", alt: "", width: 1000, height: 1680 },
@@ -6,6 +6,36 @@ const heroProps = {
   description: "Start the process here",
   ctaText: "Start",
 };
+
+const agencySelectionProps = {
+  cards: [
+    {
+      src: "/img/briefimgg.png",
+      title: "Brief",
+      text: ["Complete ", <strong>brief writing or simple guidance</strong>, " on what to include, we've got you covered."],
+      width: "442px",
+      color: "#F9F9F9"
+    },
+
+    {
+      src: "/img/searchimgg.png",
+      title: "Search",
+      text: ["In-depth agency search covering; ", <strong>criteria matching,</strong>, " door knocking and due-dilligence vertting."],
+      width: "469px",
+      color: "#F4F4F4"
+    },
+
+    {
+      src: "/img/pitchimgg.png",
+      title: "Pitch",
+      text: ["Comprehensive ", <strong>pitch management,</strong>, " including comms, diary management and pitch hosting."],
+      width: "501px",
+      color: "#F1F1F1"
+    }
+  ],
+  headingText: "Managed agency selection",
+  subheadingText: "Strengthen your onboarding process"
+}
 
 export default function Home() {
   return (
@@ -20,6 +50,7 @@ export default function Home() {
       </head>
       <div>
         <Hero {...heroProps} />
+        <AgencySelectionSection {...agencySelectionProps} />
         {/** Other sections */}
       </div>
     </>

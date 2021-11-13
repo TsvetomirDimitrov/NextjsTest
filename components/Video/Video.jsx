@@ -1,7 +1,7 @@
 import { VideoContainer } from "./elements"
 import Image from 'next/image'
 
-export const Video = (props) => {
+export const Video = () => {
 	return (
 		<VideoContainer>
 			<Image

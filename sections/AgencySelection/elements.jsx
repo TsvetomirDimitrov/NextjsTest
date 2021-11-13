@@ -1,12 +1,25 @@
 import styled from "styled-components";
+import { SectionContainer } from "../../components";
+import { SectionHeading, SectionParagraph, SectionSubheading, Video } from "~/components";
+import { AllCardsContainer } from '../../collections/Card/elements'
+import { Card } from '../../collections/Card'
 
-export const AllCardsContainer = styled(({ ...props }) => <div {...props} />)`
+
+export const StyledCard = styled(({ ...props }) => <Card {...props} />)`
+
+`;
+
+export const StyledVideoContainer = styled(({ ...props }) => <Video {...props} />)`
+
+`;
+
+export const StyledCardsContainer = styled(({ ...props }) => <AllCardsContainer {...props} />)`
   display: flex;
   flex-direction: column;
 `;
 
-export const AgencySelectionContainer = styled.div`
-	margin: auto auto;
+export const AgencySectionContainer = styled(({ ...props }) => <SectionContainer {...props} />)`
+	margin: 5% auto;
 	display: flex;
 	justify-content: center;
 	column-gap: 75px;
@@ -27,7 +40,7 @@ export const FullWidthContainer = styled.div`
 	width: 100%;
 `
 
-export const SectionHeadings = styled.div`
+export const SectionHeadingsContainer = styled.div`
 	text-align: center;
 	margin-bottom: 50px;
 	h1,
@@ -37,5 +50,11 @@ export const SectionHeadings = styled.div`
 	h5,
 	h6 {
 		margin: 0;
-	}
+	};
 `
+export const StyledSectionHeading = styled(({ ...props }) => <SectionHeading {...props} />)`
+	
+`;
+
+export const StyledSectionSubheading = styled(({ ...props }) => <SectionSubheading {...props} />)`
+`;

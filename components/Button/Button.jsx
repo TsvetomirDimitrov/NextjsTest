@@ -1,14 +1,8 @@
 import { StyledButton, StyledButtonText } from "./elements";
 
-const handleClick = (e) => {
-  e.preventDefault();
-  window.location.href = '/agencySelection';
-
-}
-
 export const Button = ({ children, ...props }) => {
   return (
-    <StyledButton {...props} onClick={handleClick}>
+    <StyledButton {...props}>
       <StyledButtonText>{children}</StyledButtonText>
     </StyledButton>
   );
